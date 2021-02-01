@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T14:48:10.449Z" agent="5.0 (Windows)" etag="IJNmJS-wHq3FZy_6vrY-" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-01T14:59:04.745Z" agent="5.0 (Windows)" etag="RJlGyjIL-FqPE_aYtYHw" version="14.2.9" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,23 +121,25 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dzq-oq9SQdhuU2cObvgH-100" value="tx_pool pointer" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" source="Dzq-oq9SQdhuU2cObvgH-98" parent="1" target="Dzq-oq9SQdhuU2cObvgH-86">
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-100" value="tx_pool pointer" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry x="-0.44" relative="1" as="geometry">
-            <mxPoint x="630" y="316" as="targetPoint" />
-            <mxPoint x="699" y="254" as="sourcePoint" />
+            <mxPoint x="580" y="265.0000000000001" as="targetPoint" />
+            <mxPoint x="830" y="265.0000000000001" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="680" y="255" />
-              <mxPoint x="650" y="255" />
+              <mxPoint x="730" y="265" />
+              <mxPoint x="680" y="265" />
+              <mxPoint x="650" y="265" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-103" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="700" y="280" width="10" height="80" as="geometry" />
+          <mxGeometry x="700" y="286" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Dzq-oq9SQdhuU2cObvgH-104" value="watch_call(xt, shard)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" target="Dzq-oq9SQdhuU2cObvgH-103" parent="1" source="Dzq-oq9SQdhuU2cObvgH-86">
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-104" value="watch_call(xt, shard)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry x="-0.0769" relative="1" as="geometry">
-            <mxPoint x="760" y="270" as="sourcePoint" />
+            <mxPoint x="580" y="286.0000000000001" as="sourcePoint" />
+            <mxPoint x="700" y="286.0000000000001" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -206,7 +208,7 @@
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-131" value="Author" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="650" y="60" width="100" height="740" as="geometry" />
         </mxCell>
-        <mxCell id="Dzq-oq9SQdhuU2cObvgH-132" value="&lt;div&gt;Mutex(BasicPool)&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-132" value="&lt;div&gt;Mutex&lt;br&gt;&lt;/div&gt;&lt;div&gt;BasicPool&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="780" y="60" width="100" height="740" as="geometry" />
         </mxCell>
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-133" value="Pool" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
@@ -242,8 +244,11 @@
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-146" value="Watcher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1170" y="60" width="100" height="740" as="geometry" />
         </mxCell>
-        <mxCell id="Dzq-oq9SQdhuU2cObvgH-150" value="Watcher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="60" width="100" height="740" as="geometry" />
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-154" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;" vertex="1" parent="Dzq-oq9SQdhuU2cObvgH-146">
+          <mxGeometry x="45" y="420" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-150" value="Pool State&lt;br&gt;(Atomic Pointer)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="60" width="100" height="740" as="geometry" />
         </mxCell>
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-151" value="verify_one" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=0.97;entryY=0.467;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;exitX=1.04;exitY=0.376;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry x="-0.0418" relative="1" as="geometry">
@@ -254,6 +259,43 @@
             </Array>
             <mxPoint x="1099.9999999999995" y="541.8800000000001" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-152" value="load_tx_pool()" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry x="0.44" relative="1" as="geometry">
+            <mxPoint x="840" y="240" as="sourcePoint" />
+            <mxPoint x="1859.5" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1070" y="240" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-153" value="tx_pool pointer" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry x="-0.44" relative="1" as="geometry">
+            <mxPoint x="840" y="261.0000000000001" as="targetPoint" />
+            <mxPoint x="1859.5" y="261.0000000000001" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="261" />
+              <mxPoint x="970" y="261" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-155" value="create_watcher(hash)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" target="Dzq-oq9SQdhuU2cObvgH-154" parent="1" source="Dzq-oq9SQdhuU2cObvgH-144">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1145" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-156" value="watcher" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.5;exitY=0.595;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="Dzq-oq9SQdhuU2cObvgH-146" parent="1" target="Dzq-oq9SQdhuU2cObvgH-144">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1145" y="556" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-160" value="listener.write()" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;exitX=1;exitY=0.519;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Dzq-oq9SQdhuU2cObvgH-144" target="Dzq-oq9SQdhuU2cObvgH-150">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1310" y="510" as="sourcePoint" />
+            <mxPoint x="1390" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
