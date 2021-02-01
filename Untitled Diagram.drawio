@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T16:14:34.979Z" agent="5.0 (Windows)" etag="ysx_l-S1AxykbQbO2t2I" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-01T16:15:51.047Z" agent="5.0 (Windows)" etag="5fEOGZY09kH0mIwEXitH" version="14.2.9" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1673" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="569" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -393,11 +393,12 @@
           <mxGeometry x="45" y="240" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-222" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;" vertex="1" parent="Dzq-oq9SQdhuU2cObvgH-187">
-          <mxGeometry x="45" y="390" width="10" height="60" as="geometry" />
+          <mxGeometry x="45" y="390" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-224" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" source="Dzq-oq9SQdhuU2cObvgH-222" parent="Dzq-oq9SQdhuU2cObvgH-187">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="115" y="447" as="targetPoint" />
+          <mxGeometry x="-0.1667" relative="1" as="geometry">
+            <mxPoint x="115" y="504" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-192" value="enclave" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
@@ -457,7 +458,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dzq-oq9SQdhuU2cObvgH-211" value="Vec&amp;lt;Vec&amp;lt;u8&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" source="Dzq-oq9SQdhuU2cObvgH-209" parent="1" target="Dzq-oq9SQdhuU2cObvgH-192">
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-211" value="Vec&amp;lt;Vec&amp;lt;u8&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" source="Dzq-oq9SQdhuU2cObvgH-209" parent="1" target="Dzq-oq9SQdhuU2cObvgH-198">
           <mxGeometry x="0.8349" relative="1" as="geometry">
             <mxPoint x="755" y="1127" as="targetPoint" />
             <mxPoint as="offset" />
@@ -485,9 +486,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dzq-oq9SQdhuU2cObvgH-223" value="callback" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" target="Dzq-oq9SQdhuU2cObvgH-222" parent="1" source="Dzq-oq9SQdhuU2cObvgH-192">
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-223" value="remove_call(TrustedCall)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" target="Dzq-oq9SQdhuU2cObvgH-222" parent="1" source="Dzq-oq9SQdhuU2cObvgH-198">
           <mxGeometry x="-0.8534" relative="1" as="geometry">
-            <mxPoint x="1420" y="1210" as="sourcePoint" />
+            <mxPoint x="1770" y="1220" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
