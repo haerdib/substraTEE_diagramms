@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T16:18:41.415Z" agent="5.0 (Windows)" etag="bRNZ_Sopg4_msY89AaQT" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-01T16:19:57.174Z" agent="5.0 (Windows)" etag="Xx5ldiau1teZmDXvLcRs" version="14.2.9" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1673" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -218,6 +218,9 @@
             <mxPoint x="54" y="376" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-234" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;" vertex="1" parent="Dzq-oq9SQdhuU2cObvgH-133">
+          <mxGeometry x="45" y="1190" width="10" height="240" as="geometry" />
         </mxCell>
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-141" value="&lt;div&gt;submit_and_watch&lt;/div&gt;&lt;div&gt;(xt, shard)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="Dzq-oq9SQdhuU2cObvgH-115">
           <mxGeometry relative="1" as="geometry">
@@ -491,6 +494,18 @@
         </mxCell>
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-226" value="SIMPLIFIED!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="620" y="1070" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-235" value="remove_invalid" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" target="Dzq-oq9SQdhuU2cObvgH-234" parent="1" source="Dzq-oq9SQdhuU2cObvgH-222">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint x="885" y="1250" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-236" value="Result&amp;lt;Vec&amp;lt;Hash&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" source="Dzq-oq9SQdhuU2cObvgH-234" parent="1" target="Dzq-oq9SQdhuU2cObvgH-222">
+          <mxGeometry x="0.5" relative="1" as="geometry">
+            <mxPoint x="885" y="1326" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
