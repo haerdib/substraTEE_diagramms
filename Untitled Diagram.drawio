@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T15:45:38.317Z" agent="5.0 (Windows)" etag="kDO2O3635fvclEvVjyWR" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-01T15:46:27.321Z" agent="5.0 (Windows)" etag="I-UyXqevorsQQVnixctD" version="14.2.9" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="276" dy="148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -280,12 +280,12 @@
           <mxGeometry x="45" y="430" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-150" value="Pool State&lt;br&gt;(Atomic Pointer)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1810" y="60" width="100" height="740" as="geometry" />
+          <mxGeometry x="1690" y="60" width="100" height="740" as="geometry" />
         </mxCell>
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-152" value="load_tx_pool()" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry x="0.44" relative="1" as="geometry">
             <mxPoint x="840" y="240" as="sourcePoint" />
-            <mxPoint x="1859.5" y="240" as="targetPoint" />
+            <mxPoint x="1740" y="240" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1070" y="240" />
             </Array>
@@ -295,7 +295,7 @@
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-153" value="tx_pool pointer" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry x="-0.44" relative="1" as="geometry">
             <mxPoint x="840" y="261.0000000000001" as="targetPoint" />
-            <mxPoint x="1859.5" y="261.0000000000001" as="sourcePoint" />
+            <mxPoint x="1740" y="261" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="1000" y="261" />
               <mxPoint x="970" y="261" />
@@ -322,7 +322,7 @@
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-160" value="write" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1219.810344827586" y="519" as="sourcePoint" />
-            <mxPoint x="1859.5" y="519.47" as="targetPoint" />
+            <mxPoint x="1740" y="519" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1300" y="519" />
             </Array>
@@ -379,13 +379,11 @@
             <mxPoint x="1405" y="690" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dzq-oq9SQdhuU2cObvgH-176" value="import(WaitingTransaction)" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="Dzq-oq9SQdhuU2cObvgH-173" target="Dzq-oq9SQdhuU2cObvgH-150">
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-176" value="import(WaitingTx)" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="Dzq-oq9SQdhuU2cObvgH-173" target="Dzq-oq9SQdhuU2cObvgH-150">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1520" y="710" as="sourcePoint" />
             <mxPoint x="1600" y="710" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1760" y="720" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-175" value="Result(Imported::Ready)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" source="Dzq-oq9SQdhuU2cObvgH-173" parent="1" target="Dzq-oq9SQdhuU2cObvgH-165">
