@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T14:59:04.745Z" agent="5.0 (Windows)" etag="RJlGyjIL-FqPE_aYtYHw" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-01T15:00:39.732Z" agent="5.0 (Windows)" etag="Yslh9myqgg9Cwf5ufb4Z" version="14.2.9" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1185" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -239,7 +239,7 @@
           <mxGeometry x="1040" y="60" width="100" height="740" as="geometry" />
         </mxCell>
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-144" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;" vertex="1" parent="Dzq-oq9SQdhuU2cObvgH-143">
-          <mxGeometry x="50" y="410" width="10" height="80" as="geometry" />
+          <mxGeometry x="50" y="410" width="10" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-146" value="Watcher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1170" y="60" width="100" height="740" as="geometry" />
@@ -250,7 +250,7 @@
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-150" value="Pool State&lt;br&gt;(Atomic Pointer)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1810" y="60" width="100" height="740" as="geometry" />
         </mxCell>
-        <mxCell id="Dzq-oq9SQdhuU2cObvgH-151" value="verify_one" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=0.97;entryY=0.467;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;exitX=1.04;exitY=0.376;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-151" value="&amp;nbsp;match valid tx" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=0.97;entryY=0.467;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;exitX=1.04;exitY=0.376;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry x="-0.0418" relative="1" as="geometry">
             <mxPoint x="1100.7000000000003" y="520.04" as="sourcePoint" />
             <Array as="points">
@@ -292,10 +292,10 @@
             <mxPoint x="1145" y="556" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dzq-oq9SQdhuU2cObvgH-160" value="listener.write()" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;exitX=1;exitY=0.519;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Dzq-oq9SQdhuU2cObvgH-144" target="Dzq-oq9SQdhuU2cObvgH-150">
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-160" value="listener.write(watcher)" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;exitX=1;exitY=0.519;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1310" y="510" as="sourcePoint" />
-            <mxPoint x="1390" y="510" as="targetPoint" />
+            <mxPoint x="1100" y="513.47" as="sourcePoint" />
+            <mxPoint x="1859.5" y="513.47" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
