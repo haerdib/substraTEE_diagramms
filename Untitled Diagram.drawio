@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T14:04:58.536Z" agent="5.0 (Windows)" etag="EQcm1tO998PzroC88Hyc" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T14:05:30.383Z" agent="5.0 (Windows)" etag="DNOdxZWTDXrvo-4npKgR" version="14.2.9" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,10 +15,12 @@
             <mxPoint x="40" y="140" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dzq-oq9SQdhuU2cObvgH-38" value="Ok(resp)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="1" source="Dzq-oq9SQdhuU2cObvgH-36" edge="1" target="PYLbrebLrYnVloWBjlpJ-3">
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-38" value="send(tx_in_pool)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" source="Dzq-oq9SQdhuU2cObvgH-125" edge="1" target="PYLbrebLrYnVloWBjlpJ-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="40" y="264" as="targetPoint" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="90" y="825" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <object label="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Client&lt;/span&gt;" id="Dzq-oq9SQdhuU2cObvgH-19">
