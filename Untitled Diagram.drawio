@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T07:47:40.042Z" agent="5.0 (Windows)" etag="mYzo1ht0MTjwWQu9pnEj" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-03T07:48:37.286Z" agent="5.0 (Windows)" etag="EFdapDRTkTKWBiI1bWzR" version="14.2.9" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="265" dy="141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1646" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KY_gxACX-vJphTDB8CmK-1" value="&lt;div&gt;worker-api-direct&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="KY_gxACX-vJphTDB8CmK-1" value="&lt;div&gt;worker-api-direct&lt;/div&gt;&lt;div&gt;(interface only)&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="390" y="1410" width="100" height="470" as="geometry" />
         </mxCell>
         <mxCell id="KY_gxACX-vJphTDB8CmK-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="KY_gxACX-vJphTDB8CmK-1">
@@ -262,7 +262,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dzq-oq9SQdhuU2cObvgH-128" value="&lt;div&gt;worker-api-direct&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="Dzq-oq9SQdhuU2cObvgH-128" value="&lt;div&gt;worker-api-direct&lt;br&gt;((interface only)&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="390" y="60" width="100" height="780" as="geometry" />
         </mxCell>
         <mxCell id="PYLbrebLrYnVloWBjlpJ-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Dzq-oq9SQdhuU2cObvgH-128" vertex="1">
