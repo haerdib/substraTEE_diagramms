@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T08:13:03.357Z" agent="5.0 (Windows)" etag="LWWM-VoIGAOUrW1arMwd" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-03T11:10:14.841Z" agent="5.0 (Windows)" etag="0XiLGCesFgpoL6l_Zepc" version="14.2.9" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="2743" dy="1453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="941" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -680,7 +680,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PYLbrebLrYnVloWBjlpJ-2" value="Json { &lt;br&gt;&lt;div&gt;Result(Hash)&lt;/div&gt;&lt;div&gt;start_watch}&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" parent="1" source="Dzq-oq9SQdhuU2cObvgH-86" target="Dzq-oq9SQdhuU2cObvgH-69" edge="1">
+        <mxCell id="PYLbrebLrYnVloWBjlpJ-2" value="JsonString { &lt;br&gt;&lt;div&gt;do_watch: true,&lt;/div&gt;&lt;div&gt;value: &lt;br&gt;&lt;/div&gt;&lt;div&gt;Result(Hash, Error)&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" parent="1" source="Dzq-oq9SQdhuU2cObvgH-86" target="Dzq-oq9SQdhuU2cObvgH-69" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="445" y="790" as="targetPoint" />
             <mxPoint x="565" y="790" as="sourcePoint" />
@@ -760,7 +760,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PYLbrebLrYnVloWBjlpJ-24" value="Json_resp" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=#ffffff;" parent="1" edge="1">
+        <mxCell id="PYLbrebLrYnVloWBjlpJ-24" value="in_block" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=#ffffff;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="305" y="1574" as="targetPoint" />
             <mxPoint x="435" y="1574" as="sourcePoint" />
