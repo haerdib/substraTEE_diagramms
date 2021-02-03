@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T17:09:54.188Z" agent="5.0 (Windows)" etag="gQL6IHB9yMuUG_Mo9rXj" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-03T17:57:12.828Z" agent="5.0 (Windows)" etag="lQ-evH01eEOlqoxljGWX" version="14.2.9" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="959" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -692,9 +692,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PYLbrebLrYnVloWBjlpJ-8" value="send(json_resp)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;labelBackgroundColor=#ffffff;" parent="1" edge="1" target="PYLbrebLrYnVloWBjlpJ-3">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.6386" relative="1" as="geometry">
             <mxPoint x="165" y="1649.9999999999986" as="targetPoint" />
             <mxPoint x="295" y="1649.9999999999986" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PYLbrebLrYnVloWBjlpJ-9" value="send(tx_removed)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=#ffffff;" parent="1" edge="1">
