@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T13:43:43.665Z" agent="5.0 (Windows)" etag="qAKddtQpR7frRBQtQX2O" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T13:44:42.303Z" agent="5.0 (Windows)" etag="bumELQb-h1DZLP2M8sWR" version="14.2.9" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1646" dy="1006" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -118,8 +118,8 @@
         </mxCell>
         <mxCell id="Dzq-oq9SQdhuU2cObvgH-54" value="send(tx_in_pool)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;labelBackgroundColor=#ffffff;" parent="1" edge="1">
           <mxGeometry x="-0.4779" relative="1" as="geometry">
-            <mxPoint x="46" y="919.9999999999986" as="targetPoint" />
-            <mxPoint x="295" y="919.9999999999986" as="sourcePoint" />
+            <mxPoint x="46" y="973.9999999999986" as="targetPoint" />
+            <mxPoint x="295" y="973.9999999999986" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -804,6 +804,17 @@
             <mxPoint x="1095" y="1810" as="targetPoint" />
             <mxPoint as="offset" />
             <mxPoint x="1215" y="1810" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t60xTFNfINBwN4r-NDaf-1" value="&lt;div&gt;Overwrite value: Result&amp;lt;msg&amp;gt;&lt;/div&gt;&lt;div&gt;with value::String&amp;lt;msg&amp;gt;&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry x="-0.0418" relative="1" as="geometry">
+            <mxPoint x="305" y="917.9985714285715" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="330" y="917.97" />
+              <mxPoint x="330" y="939.97" />
+            </Array>
+            <mxPoint x="305" y="939.9985714285715" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
