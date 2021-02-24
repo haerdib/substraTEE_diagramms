@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T15:53:29.340Z" agent="5.0 (Windows)" version="14.4.2" etag="1qzhkgrtlyJv6RYV8VeJ" type="github"><diagram id="T9Td9MU28bycep_L8hhI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-24T16:02:34.375Z" agent="5.0 (Windows)" etag="SStJKaZ8K4aNH1XUpJ95" version="14.4.2" type="github">
+  <diagram id="T9Td9MU28bycep_L8hhI" name="Page-1">
+    <mxGraphModel dx="1135" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G-V3bjTnwK3FEwkh_d7c-3" value="&lt;div&gt;&lt;b&gt;Signed Block:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Signature&lt;/li&gt;&lt;li&gt;&lt;b&gt;Encoded Block&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="10" y="80" width="500" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="G-V3bjTnwK3FEwkh_d7c-5" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;Block&lt;/b&gt;:&lt;br&gt;&lt;ul&gt;&lt;li&gt;timestamp&lt;/li&gt;&lt;li&gt;parent hash&lt;/li&gt;&lt;li&gt;block nr&lt;/li&gt;&lt;li&gt;extrinsic hashes&lt;/li&gt;&lt;li&gt;shard id&lt;/li&gt;&lt;li&gt;layer one head&lt;/li&gt;&lt;li&gt;block author&lt;/li&gt;&lt;li&gt;&lt;b&gt;encrypted payload:&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="110" y="150" width="280" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="G-V3bjTnwK3FEwkh_d7c-1" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;Payload:&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;state hash aprior&lt;/li&gt;&lt;li&gt;state hash aposter&lt;/li&gt;&lt;li&gt;state diff&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="310" width="160" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
